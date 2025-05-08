@@ -224,3 +224,32 @@
     line-height: 1.7;
     margin: 0;
 }
+
+
+
+.social-sidebar {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px;
+    background: transparent;
+  
+    border-radius: 0 10px 10px 0;
+}
+
+.social-sidebar .icon {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.social-sidebar .icon:hover {
+    transform: scale(1.2);
+    color: #0077b5;
+}
