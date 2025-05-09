@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Background First, Text Later</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: url(obi-KW0rZJojScM-unsplash.jpg) no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    }
+
+    .text {
+      opacity: 0;
+      font-size: 2rem;
+      color: black;
+      animation: fadeInText 2s ease-in-out 2s forwards;
+      /* 2s delay before fade-in starts */
+    }
+
+    @keyframes fadeInText {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="text">Welcome to My Website</div>
+</body>
+</html>
