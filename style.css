@@ -39,9 +39,11 @@
 
 
 .hero h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 3rem;
+    font-family: "Libre Baskerville";
+    font-size: 45px;
+    font-weight: 400;
     margin-bottom: 1rem;
+   
 }
 
 .hero p {
