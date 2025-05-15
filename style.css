@@ -231,7 +231,10 @@
 }
 
 .skills-section h1 {
-    font-size: 2.2rem;
+    font-family:"Libre Baskerville" ;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 56px;
     margin-bottom: 2rem;
 }
 
@@ -255,10 +258,11 @@
 .skills-column ul {
     list-style-type: disc;
     padding-left: 1.2rem;
-    font-family: 'Inter', sans-serif;
-    font-size: 1.05rem;
-    line-height: 1.7;
+    font-family: "DM Sans";
+    font-size: 18px;
+    line-height: 29px;
     margin: 0;
+    font-weight: 400;
 }
 
 
